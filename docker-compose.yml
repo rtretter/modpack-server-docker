@@ -1,0 +1,9 @@
+version: "3"
+services:
+  modpack:
+    container_name: $IMAGE_NAME
+    image: $IMAGE_NAME
+    ports:
+      - "$PORT:25565"
+    volumes:
+      - "./data:/app"
