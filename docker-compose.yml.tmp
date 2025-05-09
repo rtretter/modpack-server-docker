@@ -1,4 +1,3 @@
-version: "3"
 services:
   modpack:
     container_name: $IMAGE_NAME
